@@ -1,0 +1,171 @@
+*{
+    /* border: 1px solid red; */
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+    z-index: 1;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    font-size: 3em;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}
+
+.landing-page-area-one {
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.background {
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.showfeats {
+    position: absolute;
+    /* height: 19em; */
+    justify-content: center;
+    text-align: center;
+    color: white;
+    display: flex;
+    font-size: 5em;
+    top: 30%;
+    width: 100%;
+}
+
+.shows-tile {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.show-header {
+    background-color: lightgray;
+    height: fit-content;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.show-date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: solid lightgray;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.show-info {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+button {
+    background-color: rgb(255, 153, 0);
+    color: white;
+    padding: 20px;
+    border: black;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+i {
+    color: goldenrod;
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+}
+
+.mapimg {
+    width: 250px;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+   }
+
+th {
+    font-size: 2em;
+    padding-left: 5px;
+}
